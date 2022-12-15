@@ -101,7 +101,7 @@ Ecrire une requête SQL postgresql/postgis qui retourne pour chaque maille et ch
 
 Pour cette question, j'ai utilisé le logiciel DBeaver, j'ai importé le fichier **bouquetins.csv** et j'ai réalisé mes requêtes sur cette table. 
 
-J'ai réalisé uen requête en gardant la latitude et la longitude et une autre requête sans ces deux données. Pour que la table de données issue du résultat de ma requête soit géolocalisable j'ai fusionné la table csv obtenue avec le fichier **bouquetins.csv** pour les avoir dans une couche mais cette opération ne semble pas avoir correctement focntionnée. Cette couche se nomme **all_data — table_sans_lat_long** dans le projet qgis nommé **tests_bouqetins.qgz**. Les données transformées à partir des requêtes sql sont dans le fichier **all_data.gpkg**. Cette requête ne semble pas avoir fonctionné au niveau de l'affichage mais il semble que les données soient présentes dans la table. 
+J'ai réalisé uen requête en gardant la latitude et la longitude et une autre requête sans ces deux données. Pour que la table de données issue du résultat de ma requête soit géolocalisable j'ai fusionné la table csv obtenue avec le fichier **bouquetins.csv** pour les avoir dans une couche mais cette opération ne semble pas avoir correctement focntionnée au niveau de l'affichage mais il semble que les données soient présentes dans la table. 
 
 
 
